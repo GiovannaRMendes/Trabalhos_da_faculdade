@@ -82,7 +82,7 @@ void intercalacao(int primeiro_valor, int valor_meio, int ultimo_total, capivara
         n++;
     }
 
-    /* Esse lco funciona para colocar no vetor original as mudancas obtidas (a ordenacao) no vetor auxiliar */
+    /* Esse laco funciona para colocar no vetor original as mudancas obtidas (a ordenacao) no vetor auxiliar */
     for (i = primeiro_valor; i < ultimo_total; i++) {
         vetor[i] = vetor_aux[i-primeiro_valor];
     }
